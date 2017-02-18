@@ -1453,6 +1453,8 @@ public class GUI extends javax.swing.JFrame {
         jCheckBox4.setEnabled(false);
         
         //Calling this code again clears the rdo buttons:
+        //...was unable to just write the ".clearSelection()" method, 
+        //I had to included the instantiations of ButtonGroup objects. -jp
         ButtonGroup group1 = new ButtonGroup();
         group1.add(rdoIntel);
         group1.add(rdoAmd);
