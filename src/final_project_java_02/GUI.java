@@ -1705,7 +1705,7 @@ public class GUI extends javax.swing.JFrame {
         {
             calc.AddToSubTotal(upANDadd.GetDblOpticalUp01());
         }
-        if (rdoDvdDrive.isSelected())
+        if (rdoComboDrive.isSelected())
         {
             calc.AddToSubTotal(upANDadd.GetDblOpticalUp02());
         }
